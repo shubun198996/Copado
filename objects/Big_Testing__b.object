@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <label>Big Testing</label>
+    <pluralLabel>Big Testings</pluralLabel>
+    <fields>
+        <fullName>Username__c</fullName>
+        <externalId>false</externalId>
+        <label>Username</label>
+        <length>66</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Timestamp__c</fullName>
+        <complianceGroup>PII;GDPR</complianceGroup>
+        <externalId>false</externalId>
+        <label>Timestamp</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+</CustomObject>
